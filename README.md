@@ -1,4 +1,3 @@
-![Screenshot (292)](https://github.com/satya497/GroupChatApp/assets/51437221/96f1b793-aff8-4ab8-9862-ee8a41cb1ad3)
 
 # Chat App
 
@@ -102,3 +101,4 @@ Contributions to this project are welcome. Here are some ways you can contribute
 ![Screenshot (293)](https://github.com/satya497/GroupChatApp/assets/51437221/b2a44fe4-4b54-42f3-b69d-3a163c74beec)
 ![Screenshot (287)](https://github.com/satya497/GroupChatApp/assets/51437221/24aaa94b-d8de-453e-8741-5d7ff996f815)
 ![Uploading Screenshot (286).png…]()
+![Screenshot (292)](https://github.com/satya497/GroupChatApp/assets/51437221/96f1b793-aff8-4ab8-9862-ee8a41cb1ad3)
