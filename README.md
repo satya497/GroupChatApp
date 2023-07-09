@@ -96,11 +96,10 @@ Contributions to this project are welcome. Here are some ways you can contribute
 - The Flask framework and MySQL Connector library.
 
 ## Sample Outputs
-![Uploading Screenshot (291).png…]()
-![Uploading Screenshot (290).png…]()
+
 ![Screenshot (289)](https://github.com/satya497/GroupChatApp/assets/51437221/c809f82a-883e-44fe-9512-5141e8b2b544)
 ![Screenshot (293)](https://github.com/satya497/GroupChatApp/assets/51437221/b2a44fe4-4b54-42f3-b69d-3a163c74beec)
 ![Screenshot (287)](https://github.com/satya497/GroupChatApp/assets/51437221/24aaa94b-d8de-453e-8741-5d7ff996f815)
 ![Screenshot (286)](https://github.com/satya497/GroupChatApp/assets/51437221/1d4ecddc-5709-4351-8a7a-c77f2ef258b2)
 ![Screenshot (292)](https://github.com/satya497/GroupChatApp/assets/51437221/96f1b793-aff8-4ab8-9862-ee8a41cb1ad3)
-![Uploading Screenshot (286).png…]()
+![Screenshot (294)](https://github.com/satya497/GroupChatApp/assets/51437221/898f8f13-3ef4-4a17-a8a5-4941e259b813)
