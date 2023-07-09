@@ -46,6 +46,7 @@ This is a Flask-based chat application that allows users to create users, edit u
 5. Start the application:
 
    ```shell
+   cd api
    python app.py
    ```
 
