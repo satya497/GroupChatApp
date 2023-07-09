@@ -1,3 +1,4 @@
+![Screenshot (292)](https://github.com/satya497/GroupChatApp/assets/51437221/96f1b793-aff8-4ab8-9862-ee8a41cb1ad3)
 
 # Chat App
 
@@ -68,7 +69,7 @@ The code is organized as follows:
 
 The code includes decorator functions (`admin_required` and `login_required`) to handle authentication and authorization for certain routes. It also includes helper functions to retrieve user and group details from the database.
 
-Helper Functions:
+## Helper Functions:
 
 - `get_user_id` : Retrieves the user ID from the request based on the username. It queries the database to find the corresponding user ID.
 - `get_group_id`: Retrieves the group ID from the database based on the group name.
@@ -93,3 +94,11 @@ Contributions to this project are welcome. Here are some ways you can contribute
 ## Acknowledgments
 
 - The Flask framework and MySQL Connector library.
+
+## Sample Outputs
+![Uploading Screenshot (291).png…]()
+![Uploading Screenshot (290).png…]()
+![Screenshot (289)](https://github.com/satya497/GroupChatApp/assets/51437221/c809f82a-883e-44fe-9512-5141e8b2b544)
+![Screenshot (293)](https://github.com/satya497/GroupChatApp/assets/51437221/b2a44fe4-4b54-42f3-b69d-3a163c74beec)
+![Screenshot (287)](https://github.com/satya497/GroupChatApp/assets/51437221/24aaa94b-d8de-453e-8741-5d7ff996f815)
+![Uploading Screenshot (286).png…]()
