@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Chat App</h1>
+
+    <div id="createUserForm">
+        <h2>Create User</h2>
+        <form id="createUser">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <button type="submit">Create User</button>
+        </form>
+    </div>
+
+    <div id="editUserForm">
+        <h2>Edit User</h2>
+        <form id="editUser">
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" name="userId" required>
+
+            <label for="newUsername">New Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <button type="submit">Edit User</button>
+        </form>
+    </div>
+
+    <div id="loginForm">
+        <h2>Login</h2>
+        <form id="login">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="logoutForm">
+        <h2>Logout</h2>
+        <form id="logout">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div id="createGroupForm">
+        <h2>Create Group</h2>
+        <form id="createGroup">
+            <label for="groupName">Group Name:</label>
+            <input type="text" id="groupName" name="groupName" required>
+
+            <button type="submit">Create Group</button>
+        </form>
+    </div>
+
+    <div id="deleteGroupForm">
+        <h2>Delete Group</h2>
+        <form id="deleteGroup">
+            <label for="deleteGroupName">Group Name:</label>
+            <input type="text" id="deleteGroupName" name="deleteGroupName" required>
+
+            <button type="submit">Delete Group</button>
+        </form>
+    </div>
+
+    <div id="searchGroupsForm">
+        <h2>Search Groups</h2>
+        <form id="searchGroups">
+            <label for="searchQuery">Search Query:</label>
+            <input type="text" id="searchQuery" name="searchQuery" required>
+
+            <button type="submit">Search Groups</button>
+        </form>
+    </div>
+
+    <div id="sendMessageForm">
+        <h2>Send Message</h2>
+        <form id="sendMessage">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+
+            <label for="sendMessageGroup">Group Name:</label>
+            <input type="text" id="sendMessageGroup" name="sendMessageGroup" required>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div id="likeMessageForm">
+        <h2>Like Message</h2>
+        <form id="likeMessage">
+            <label for="likeMessage">Message:</label>
+            <input type="text" id="likeMessage" name="likeMessage" required>
+
+            <label for="likeMessageUsername">Username:</label>
+            <input type="text" id="likeMessageUsername" name="likeMessageUsername" required>
+
+            <label for="likeMessageGroup">Group Name:</label>
+            <input type="text" id="likeMessageGroup" name="likeMessageGroup" required>
+
+            <button type="submit">Like Message</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
